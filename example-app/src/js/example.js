@@ -1,4 +1,4 @@
-import { Sockets, base64ToText, textToBase64 } from 'capacitor-plugin-sockets';
+import { Sockets, base64ToText, textToBase64 } from 'capacitor-sockets';
 
 // Each test writes its verdict into #result as `<name>: PASS` or `<name>: FAIL <why>`, and into window.socketsResults,
 // so a person can read it and a script can poll it.

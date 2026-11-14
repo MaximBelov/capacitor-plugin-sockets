@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/ionic-team/capacitor-swift-pm.git", exact: "8.6.2"),
-        .package(name: "CapacitorPluginSockets", path: "../../../..")
+        .package(name: "CapacitorSockets", path: "../../../..")
     ],
     targets: [
         .target(
@@ -20,7 +20,7 @@ let package = Package(
             dependencies: [
                 .product(name: "Capacitor", package: "capacitor-swift-pm"),
                 .product(name: "Cordova", package: "capacitor-swift-pm"),
-                .product(name: "CapacitorPluginSockets", package: "CapacitorPluginSockets")
+                .product(name: "CapacitorSockets", package: "CapacitorSockets")
             ]
         )
     ]

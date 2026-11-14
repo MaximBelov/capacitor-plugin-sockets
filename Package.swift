@@ -24,7 +24,7 @@ if !coreOnly {
     dependencies.append(.package(url: "https://github.com/ionic-team/capacitor-swift-pm.git", from: "8.0.0"))
     products = [
         .library(
-            name: "CapacitorPluginSockets",
+            name: "CapacitorSockets",
             targets: ["SocketsPlugin"])
     ]
     targets += [
@@ -44,7 +44,7 @@ if !coreOnly {
 }
 
 let package = Package(
-    name: "CapacitorPluginSockets",
+    name: "CapacitorSockets",
     platforms: [.iOS(.v15), .macOS(.v12)],
     products: products,
     dependencies: dependencies,

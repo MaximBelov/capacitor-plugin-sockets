@@ -1,7 +1,7 @@
 {
-  "name": "capacitor-plugin-sockets-example",
+  "name": "capacitor-sockets-example",
   "version": "1.0.0",
-  "description": "Example app for capacitor-plugin-sockets",
+  "description": "Example app for capacitor-sockets",
   "type": "module",
   "keywords": [
     "capacitor",
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@capacitor/core": "^8.0.0",
-    "capacitor-plugin-sockets": "file:..",
+    "capacitor-sockets": "file:..",
     "@capacitor/ios": "^8.0.0",
     "@capacitor/android": "^8.0.0"
   },

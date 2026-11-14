@@ -1,4 +1,4 @@
-# capacitor-plugin-sockets
+# capacitor-sockets
 
 TCP client and UDP sockets for Capacitor 8 apps on iOS and Android, in one plugin.
 
@@ -9,7 +9,7 @@ does not listen for TCP connections.
 ## Install
 
 ```bash
-npm install capacitor-plugin-sockets
+npm install capacitor-sockets
 npx cap sync
 ```
 
@@ -22,7 +22,7 @@ without it iOS refuses the traffic and raises no prompt.
 ## Use
 
 ```typescript
-import { Sockets, base64ToText, textToBase64 } from 'capacitor-plugin-sockets';
+import { Sockets, base64ToText, textToBase64 } from 'capacitor-sockets';
 
 // UDP: listen on a port and answer a keepalive from the port it came from.
 const { socketId: udp } = await Sockets.create({ protocol: 'udp' });
