@@ -7,4 +7,5 @@ const Sockets = registerPlugin<SocketsPlugin>('Sockets', {
 });
 
 export * from './definitions';
+export * from './encoding';
 export { Sockets };
