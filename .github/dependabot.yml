@@ -1,0 +1,27 @@
+# The pins this repository carries, moved by Dependabot: the npm toolchain (Capacitor included), the Gradle build of
+# android/, Capacitor's Swift package that Package.swift names, and the actions the workflows use. The plugin has no
+# native third-party dependency of its own: the sockets are BSD sockets on iOS and java.net on Android.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      capacitor:
+        patterns: ['@capacitor/*']
+      tooling:
+        patterns: ['*']
+        exclude-patterns: ['@capacitor/*']
+  - package-ecosystem: gradle
+    directory: /android
+    schedule:
+      interval: weekly
+  - package-ecosystem: swift
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
