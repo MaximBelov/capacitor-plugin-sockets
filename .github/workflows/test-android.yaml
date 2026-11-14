@@ -19,7 +19,7 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
-      - uses: gradle/actions/setup-gradle@v6.4.0
+      - uses: gradle/actions/setup-gradle@v6.4.1
       # settings.gradle takes capacitor-android from node_modules
       - run: npm ci
       - run: npm run verify:android
@@ -44,7 +44,7 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
-      - uses: gradle/actions/setup-gradle@v6.4.0
+      - uses: gradle/actions/setup-gradle@v6.4.1
       - run: npm ci
       - run: npm run build
       - run: npm run example:android:build
